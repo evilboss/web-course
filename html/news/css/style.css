@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+
+body h1 {
+    font-weight: 300;
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin: 20px 30px;
+}
+
+article {
+    max-width: 33%;
+    display: inline-block;
+    margin: auto;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, .2);
+}
+
+article img {
+    max-width: 100%;
+}
+
+.article-image {
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center;
+
+}
